@@ -949,7 +949,7 @@ console.log(`Totals are: ${totals2}`);
 const calcAverage2 = function(arr) {
     let avTotal = 0;
     for (const item in arr) {
-        avTotal = avTotal + Number(arr[item]);
+        avTotal += Number(arr[item]);
         console.log(`avTotal is ${avTotal}, ${typeof avTotal}`);
     }
     let average = avTotal / arr.length;
