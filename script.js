@@ -214,7 +214,7 @@ function juiceMaker() {
 }
 
 // Commented out so I don't have to deal with the prompts all the time
-// juiceMaker();
+juiceMaker();
 
 const currentYear = 2024;
 const ageOfRetirement = 65;
@@ -291,6 +291,9 @@ checkWinner(avgScoreDolphins, avgScoreKoalas);
 const friend1 = "Michael";
 const friend2 = "Steven";
 const friend3 = "Peter";
+
+const bestFriends = [friend1, friend2, friend3];
+console.log(bestFriends);
 
 // This is one way of creating an array using a literal syntax
 const friends = ["Michael", "Steven", "Peter"];
